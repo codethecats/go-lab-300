@@ -1,0 +1,65 @@
+<mxfile>
+    <diagram id="MWCf4MxvRt17nQ3ZfBmQ" name="Page-1">
+        <mxGraphModel dx="645" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="23" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="i = 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="25" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="25" target="33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="i &amp;lt;= 9" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="374" y="320" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="27" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="i" style="shape=display;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="440" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="29" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="280" y="680"/>
+                            <mxPoint x="180" y="680"/>
+                            <mxPoint x="180" y="300"/>
+                            <mxPoint x="394" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="i += 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="560" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="i = 0&lt;br&gt;&lt;br&gt;i = 1&lt;br&gt;&lt;br&gt;i = 2&lt;br&gt;&lt;br&gt;i = 3&lt;br&gt;&lt;br&gt;i = 4&lt;br&gt;&lt;br&gt;i = 5&lt;br&gt;&lt;br&gt;i = 6&lt;br&gt;&lt;br&gt;i = 7&lt;br&gt;&lt;br&gt;i = 8&lt;br&gt;&lt;br&gt;i = 9" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="394" y="410" width="40" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="End" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="314" y="340" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="474" y="340" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;h1&gt;การไล่โค้ด&lt;/h1&gt;&lt;p&gt;น้อย --&amp;gt; มาก (Loop แบบเพิ่มค่า)&lt;br&gt;&lt;/p&gt;&lt;p&gt;for i in range(10):&lt;/p&gt;&lt;p&gt;&lt;span&gt;--&amp;gt; i = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Logic การจบ --&amp;gt; จบก่อนตัวสุดท้าย&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;ผมจะให้จบก่อนตัวสุดท้าย 1 ในที่นี้ ก็คือ 9&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="80" width="250" height="180" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

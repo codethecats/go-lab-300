@@ -1,0 +1,62 @@
+<mxfile>
+    <diagram id="nZZEZzLN_A8osyorwiAT" name="Page-1">
+        <mxGraphModel dx="402" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" value="&lt;h1&gt;การไล่โค้ด&lt;/h1&gt;&lt;p&gt;มาก --&amp;gt; น้อย ( Loop แบบลดค่า หรือ แบบถอยหลัง )&lt;br&gt;&lt;/p&gt;&lt;p&gt;for i in range(10,-1,-3)&lt;/p&gt;--&amp;gt; i =&amp;nbsp;&lt;span&gt;10, 7, 4, 1&lt;/span&gt;&lt;br&gt;&lt;p&gt;10,&amp;nbsp; &amp;nbsp;9,&amp;nbsp; &amp;nbsp;8,&lt;/p&gt;&lt;p&gt;&amp;nbsp; 7,&amp;nbsp; &amp;nbsp;6,&amp;nbsp; &amp;nbsp;5,&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; 4,&amp;nbsp; &amp;nbsp;3,&amp;nbsp; &amp;nbsp;2,&lt;/p&gt;&lt;p&gt;&amp;nbsp; 1,&amp;nbsp; &amp;nbsp;0,&amp;nbsp; -1,&lt;/p&gt;&lt;p&gt;&amp;nbsp;-2,&amp;nbsp; -3,&amp;nbsp; -4,&lt;/p&gt;&lt;p&gt;Logic การจบ --&amp;gt; จบก่อนตัวสุดท้าย&lt;/p&gt;&lt;p&gt;ผมจะให้จบก่อนตัวสุดท้าย 1 ในที่นี้ ก็คือ 0&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="41" width="270" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="21" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="start" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="41" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="22" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="i = 10" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="24" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="24" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="i &amp;gt;= 0" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="320" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="26" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="i" style="shape=display;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="440" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="28" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="300" y="680"/>
+                            <mxPoint x="180" y="680"/>
+                            <mxPoint x="180" y="300"/>
+                            <mxPoint x="400" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="i -= 3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="560" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="End" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="340" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="False" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="340" width="40" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
